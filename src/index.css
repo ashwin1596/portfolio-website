@@ -57,7 +57,7 @@ body {
 
   /* hero section */
   .hero_tag {
-    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
+    @apply xl:text-2xl md:text-xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
   }
 
   /* about section */
@@ -79,7 +79,7 @@ body {
 
   /* projects section  */
   .arrow-btn {
-    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient;
+    @apply p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient;
   }
 
   .tech-logo {
@@ -167,6 +167,17 @@ body {
           rgba(255, 255, 255, 0.000025) 50%,
           rgba(255, 255, 255, 0.025) 100%
   );
+}
+
+.red-gradient {
+  background: #FF3131;
+  background: linear-gradient(-90deg, #FF3131 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(-90deg,
+  #FF3131 0%,
+  rgba(60, 51, 80, 0) 100%);
+  /*background-size: 5px 100%;  !* Width: 5px, Full Height *!*/
+  /*background-repeat: no-repeat;*/
+  /*background-position-x: 100px;*/
 }
 
 @keyframes wave-animation {

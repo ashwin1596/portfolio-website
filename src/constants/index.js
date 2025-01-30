@@ -21,50 +21,12 @@ export const navLinks = [
     },
 ];
 
-export const clientReviews = [
-    {
-        id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'assets/review1.png',
-        review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-        id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
-        img: 'assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-        id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
-        img: 'assets/review3.png',
-        review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-        id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
-        img: 'assets/review4.png',
-        review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-];
-
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-        subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-        texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+        title: 'DeepL - Deep Learning Framework',
+        desc: 'A custom deep learning framework designed for efficient graph optimization and reverse-mode auto-differentiation. The framework provides foundational tools for building and training neural networks with both Python and C++ bindings, enabling flexibility and performance for machine learning tasks.',
+        link: 'https://github.com/ashwin1596/deepL',
+        image: '/assets/grid1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
@@ -74,34 +36,26 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'C++',
+                path: '/myassets/cpp_logo.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Python',
+                path: '/myassets/python_logo.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
+                name: 'CUDA',
+                path: '/myassets/cuda_logo.svg',
+            }
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-        subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        title: 'Purchase Planner',
+        desc: 'Purchase Planner is a full-stack web application designed to help users manage and organize their purchases effectively. The application provides an intuitive interface for creating, maintaining, and prioritizing a personal purchase list.',
+        link: 'https://github.com/ashwin1596/purchase_planner',
+        image: '/assets/grid1.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -112,33 +66,36 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: '/myassets/react_logo.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Node.js',
+                path: '/myassets/nodejs_logo.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Express',
+                path: '/myassets/express_logo.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'MongoDB',
+                path: '/myassets/mongodb_logo.svg',
+            },
+            {
+                id: 5,
+                name: 'Docker',
+                path: '/myassets/docker_logo.svg',
             },
         ],
     },
     {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-        subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        title: 'Peer to Peer Storage',
+        desc: 'Developed a Python-based peer-to-peer storage system using gRPC, enabling efficient distributed file storage and retrieval. Designed a scalable resource allocation mechanism that improved data accessibility by 40% and implemented fault-tolerant communication protocols to ensure seamless data synchronization across peers.',
+        link: '',
         texture: '/textures/project/project3.mp4',
-        logo: '/assets/project-logo3.png',
+        image: '/assets/grid1.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
             background:
@@ -150,34 +107,21 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'grpc',
+                path: '/myassets/grpc_logo.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Python',
+                path: '/myassets/python_logo.svg',
             },
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-        subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-        texture: '/textures/project/project4.mp4',
-        logo: '/assets/project-logo4.png',
+        title: 'Load balancer',
+        desc: 'Developed a scalable load balancer using the Shortest Queue Strategy to efficiently distribute traffic across multiple servers. Implemented a concurrent client-server architecture with Python\'s socket library and UDP protocol, handling high-volume requests. Utilized multithreading and OOP principles to simulate and manage multiple simultaneous client connections and server responses.',
+        link: 'https://github.com/ashwin1596/load_balancer_project',
+        image: '/assets/grid1.png',
         logoStyle: {
             backgroundColor: '#0E1F38',
             border: '0.2px solid #0E2D58',
@@ -187,34 +131,83 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'java',
+                path: '/myassets/java_logo.png',
             },
         ],
     },
     {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/project5.mp4',
-        logo: '/assets/project-logo5.png',
+        title: 'TCP (Transmission Control Protocol – Tahoe version)',
+        desc: 'Implemented the TCP Tahoe protocol with Slow Start and Congestion Avoidance phases using a sliding window mechanism for efficient data transmission. Engineered fast retransmission and timeout handling to ensure reliability, utilizing Python and socket programming. Developed an object-oriented concurrent system for packet transmission and network communication using UDP.',
+        link: 'https://github.com/ashwin1596/tcp_project',
+        image: '/assets/grid1.png',
+        logoStyle: {
+            backgroundColor: '#1C1A43',
+            border: '0.2px solid #252262',
+            boxShadow: '0px 0px 60px 0px #635BFF4D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Python',
+                path: '/myassets/python_logo.svg',
+            },
+        ],
+    },
+    {
+        title: 'Vector Routing Protocol',
+        desc: 'Implemented the RIP distance-vector routing protocol to enable dynamic routing and shortest path calculation using Python and UDP. Developed periodic route updates, CIDR support, and dynamic routing table adjustments for optimized network performance. Applied \'split-horizon\' with poisoned reverse to prevent routing loops and address the count-to-infinity problem.',
+        link: 'https://github.com/ashwin1596/routing_protocol',
+        image: '/assets/grid1.png',
+        logoStyle: {
+            backgroundColor: '#1C1A43',
+            border: '0.2px solid #252262',
+            boxShadow: '0px 0px 60px 0px #635BFF4D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Python',
+                path: '/myassets/python_logo.svg',
+            },
+        ],
+    },
+    {
+        title: 'Apparel Design using Deep Learning',
+        desc: 'Used Deep Convolutional GAN to generate innovative apparel and footwear designs, reducing production time by 50% while preserving design quality and creativity. Engineered a data preprocessing pipeline with Numpy and Pandas to handle large-scale fashion image datasets for model training. Optimized the GAN architecture to ensure high-quality, creative, and marketable apparel designs.',
+        link: '',
+        image: '/assets/grid1.png',
+        logoStyle: {
+            backgroundColor: '#1C1A43',
+            border: '0.2px solid #252262',
+            boxShadow: '0px 0px 60px 0px #635BFF4D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Pytorch',
+                path: '/myassets/pytorch_logo.svg',
+            },
+            {
+                id: 2,
+                name: 'Numpy',
+                path: '/myassets/numpy_logo.svg',
+            },
+            {
+                id: 3,
+                name: 'Pandas',
+                path: '/myassets/pandas_logo.svg',
+            },
+        ],
+    },
+    {
+        title: 'Luggage Tracking system on Airports using RFID(IoT)',
+        desc: 'Engineered an RFID-based luggage tracking system with a React frontend, reducing baggage mishandling by 95%. Implemented a containerized microservices architecture using Docker and Kubernetes for scalable deployment and efficient monitoring of RFID tracking operations. Designed a real-time baggage location tracking and notification system, streamlining airport operations and improving the passenger experience.',
+        link: '',
+        image: '/assets/grid1.png',
         logoStyle: {
             backgroundColor: '#1C1A43',
             border: '0.2px solid #252262',
@@ -225,31 +218,60 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: '/myassets/react_logo.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Kubernetes',
+                path: '/myassets/kubernetes_logo.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Docker',
+                path: '/myassets/docker_logo.svg',
             },
         ],
     },
+    {
+        title: 'Digital Locker',
+        desc: 'Developed a secure digital document management system using the MERN stack, ensuring 80% uptime and zero security breaches. Implemented end-to-end encryption and secure authentication protocols for safe document storage and transmission. Engineered robust upload/download functionality with document versioning and access control, ensuring data integrity and user privacy.',
+        link: '',
+        image: '/assets/grid1.png',
+        logoStyle: {
+            backgroundColor: '#1C1A43',
+            border: '0.2px solid #252262',
+            boxShadow: '0px 0px 60px 0px #635BFF4D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/myassets/react_logo.svg',
+            },
+            {
+                id: 2,
+                name: 'Node.js',
+                path: '/myassets/nodejs_logo.svg',
+            },
+            {
+                id: 3,
+                name: 'Express',
+                path: '/myassets/express_logo.svg',
+            },
+            {
+                id: 4,
+                name: 'MongoDB',
+                path: '/myassets/mongodb_logo.svg',
+            },
+        ],
+    }
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
-        deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-        deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+        deskScale: isSmall ? 0.02 : isMobile ? 0.02 : 0.08,
+        deskPosition: isMobile ? [0.5, -4.5, 0] : [9, -3.5, 0],
         cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
         reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
         ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
@@ -260,29 +282,40 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        name: 'Rochester Institute of Technology',
+        pos: 'Teaching Assistant',
+        duration: '08/2024 - Present',
+        title: [
+            {task : "Grade student assignments, projects, and examinations focusing on modern cryptographic concepts including public key infrastructure, digital signatures, and cryptographic hash functions."},
+            {task : "Support students during lab sessions, helping them implement secure cryptographic algorithms and protocols."},
+            {task : "Lead weekly discussion sections to reinforce core concepts and help students work through challenging problems."},
+            {task : "Provide constructive feedback on students' programming assignments involving cryptographic implementations in languages like Python/Java."},
+            {task : "Hold regular office hours to assist students with theoretical concepts and programming challenges."},
+            {task : "Collaborate with course instructor to ensure consistent evaluation standards and maintain academic integrity."},
+            {task : "Assist in developing and testing programming exercises that demonstrate practical applications of cryptographic principles."},
+        ],
+        icon: '/myassets/rit_logo.svg',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
-        animation: 'clapping',
-    },
-    {
-        id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
+        name: 'Tata Consultancy Services',
+        pos: 'Systems Engineer',
+        duration: '07/2019 - 03/2022',
+        title:
+            [
+                {task: "Executed migration of core services from legacy to cloud-native systems by implementing microservices using CQRS pattern; \n" +
+                        "achieved 60% faster response time and 35% cost savings through enhanced resource efficiency."},
+                {task: "Engineered and implemented a highly scalable Anti-corruption layer integrating legacy systems and microservices, slashing data \n" +
+                        "conflicts by 40% and boosting system efficiency by 30%."},
+                {task: "Led smooth microservices integration & parallel testing, migrating legacy components to cloud with zero disruptions, cutting \n" +
+                        "downtime by 75% & elevated operational productivity by 40%."},
+                {task: "CI/CD pipeline integration, code reviews, unit/end-to-end testing."},
+                {task: "Collaborated with approximately 20 team members, following Agile methodology to ensure iterative development, regular stand\n" +
+                        "ups, and continuous feedback on this project."},
+                {task: "Tech Stack – C# | Kafka | Kubernetes | Docker | Azure | AWS | MongoDB | MSSQL | REST APIs | Event-Driven Architecture "},
+            ],
+        icon: '/myassets/tcs_logo.svg',
         animation: 'salute',
     },
 ];

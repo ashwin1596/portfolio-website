@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         generalsans: ['General Sans', 'sans-serif'],
+        'arial-black': ['Arial Black', 'sans-serif'],
       },
       colors: {
         black: {

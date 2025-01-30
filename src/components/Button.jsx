@@ -1,16 +1,32 @@
-import React from 'react'
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { useRef } from "react";
 
-const Button = ({name, isBeam = false, containerClass}) => {
+const Button = ({ containerClass }) => {
+    const btnRef = useRef();
+
+    useGSAP(() => {
+        gsap
+            .timeline({
+                repeat: -1,
+            })
+            .to(btnRef.current, {
+                rotationY: 360,
+                duration: 2.5,
+            });
+    }, []);
+
     return (
-        <button className={`btn ${containerClass}`}>
-            {isBeam && (
-                <span className="relative flex h-3 w-3">
-                    <span className="btn-ping" />
-                    <span className="btn-ping_dot" />
-                </span>
-            )}
-            {name}
+        <button ref={btnRef} className={`bg-red-800 text-white rounded-full ${containerClass}`}>
+            {
+                <img
+                    src="/assets/arrow-down.svg"
+                    alt="down arrow"
+                    className="w-full h-full -rotate-90"
+                />
+            }
         </button>
-    )
-}
-export default Button
+    );
+};
+
+export default Button;

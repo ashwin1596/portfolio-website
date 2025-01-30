@@ -9,7 +9,7 @@ const Experience = () => {
     const [animationName, setAnimationName] = useState("idle")
     
     return (
-        <section className="c-space my-20">
+        <section className="c-space my-20" id="experience">
             <div className="w-full text-white-600">
                 <h3 className="head-text">My Work Experience</h3>
 
@@ -50,7 +50,11 @@ const Experience = () => {
                                             {name}
                                         </p>
                                          <p className="text-sm mb-5">{pos} -- {duration}</p>
-                                         <p className="group-hover:text-white transition ease-in-out duration-500">{title}</p>
+                                         <p className="group-hover:text-white text-justify transition ease-in-out duration-500">{
+                                             title.map((item, index) => {
+                                                 return <li key={index}>{item.task}<br /></li>
+                                             })
+                                         }</p>
                                      </div>
                                  </div>
                              ))}
