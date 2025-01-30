@@ -16,7 +16,7 @@ const Hero = () => {
     const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
     return (
-        <section className="min-h-screen w-full flex flex-col relative">
+        <section className="min-h-screen w-full flex flex-col relative" id="home">
             <div className="w-1/2 flex flex-row items-start gap-3">
                 <div className="flex flex-col justify-center items-start sm:mt-32 mt-20 ml-[100px]">
                     {/*<div className="w-5 h-5 rounded-sm bg-[#FF3131]" />*/}

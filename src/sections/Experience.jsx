@@ -9,7 +9,7 @@ const Experience = () => {
     const [animationName, setAnimationName] = useState("idle")
     
     return (
-        <section className="c-space my-20" id="experience">
+        <section className="c-space sm:my-80 my-40" id="experience">
             <div className="w-full text-white-600">
                 <h3 className="head-text">My Work Experience</h3>
 
@@ -21,7 +21,7 @@ const Experience = () => {
                             <directionalLight position={[10, 10, 10]} intensity={1}/>
                             <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2}/>
                             <Suspense fallback={<CanvasLoader />}>
-                                <Developer position={-3} scale={3} animationName={animationName}/>
+                                <Developer position={[-0.2, -3, -1]} scale={3} animationName={animationName}/>
                             </Suspense>
                         </Canvas>
                     </div>

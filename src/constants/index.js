@@ -6,13 +6,13 @@ export const navLinks = [
     },
     {
         id: 2,
-        name: 'About',
-        href: '#about',
+        name: 'Work',
+        href: '#experience',
     },
     {
         id: 3,
-        name: 'Work',
-        href: '#work',
+        name: 'Project',
+        href: '#projects',
     },
     {
         id: 4,
@@ -317,5 +317,5 @@ export const workExperiences = [
             ],
         icon: '/myassets/tcs_logo.svg',
         animation: 'salute',
-    },
+    }
 ];
