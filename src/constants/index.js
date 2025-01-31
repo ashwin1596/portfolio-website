@@ -55,7 +55,7 @@ export const myProjects = [
         title: 'Purchase Planner',
         desc: 'Purchase Planner is a full-stack web application designed to help users manage and organize their purchases effectively. The application provides an intuitive interface for creating, maintaining, and prioritizing a personal purchase list.',
         link: 'https://github.com/ashwin1596/purchase_planner',
-        image: '/assets/grid1.png',
+        image: '/myassets/pplanner_image.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -121,7 +121,7 @@ export const myProjects = [
         title: 'Load balancer',
         desc: 'Developed a scalable load balancer using the Shortest Queue Strategy to efficiently distribute traffic across multiple servers. Implemented a concurrent client-server architecture with Python\'s socket library and UDP protocol, handling high-volume requests. Utilized multithreading and OOP principles to simulate and manage multiple simultaneous client connections and server responses.',
         link: 'https://github.com/ashwin1596/load_balancer_project',
-        image: '/assets/grid1.png',
+        image: '/myassets/loadbalancer_image.png',
         logoStyle: {
             backgroundColor: '#0E1F38',
             border: '0.2px solid #0E2D58',
@@ -140,7 +140,7 @@ export const myProjects = [
         title: 'TCP (Transmission Control Protocol – Tahoe version)',
         desc: 'Implemented the TCP Tahoe protocol with Slow Start and Congestion Avoidance phases using a sliding window mechanism for efficient data transmission. Engineered fast retransmission and timeout handling to ensure reliability, utilizing Python and socket programming. Developed an object-oriented concurrent system for packet transmission and network communication using UDP.',
         link: 'https://github.com/ashwin1596/tcp_project',
-        image: '/assets/grid1.png',
+        image: '/myassets/tcp_image.png',
         logoStyle: {
             backgroundColor: '#1C1A43',
             border: '0.2px solid #252262',
@@ -159,7 +159,7 @@ export const myProjects = [
         title: 'Vector Routing Protocol',
         desc: 'Implemented the RIP distance-vector routing protocol to enable dynamic routing and shortest path calculation using Python and UDP. Developed periodic route updates, CIDR support, and dynamic routing table adjustments for optimized network performance. Applied \'split-horizon\' with poisoned reverse to prevent routing loops and address the count-to-infinity problem.',
         link: 'https://github.com/ashwin1596/routing_protocol',
-        image: '/assets/grid1.png',
+        image: '/myassets/rip_image.png',
         logoStyle: {
             backgroundColor: '#1C1A43',
             border: '0.2px solid #252262',
