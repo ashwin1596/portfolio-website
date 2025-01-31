@@ -20,16 +20,16 @@ const Contact = () => {
     }
 
     return (
-        <section className="c-space my-20" id="contact">
+        <section className="c-space pt-20" id="contact">
             <div className="relative min-h-screen flex items-center justify-center flex-col">
-                <img src="/assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen"/>
-                <div className="contact-container">
+                <img src="/assets/terminal.png" alt="terminal background" className="absolute inset-0 w-full h-full"/>
+                <div className="contact-container pt-35">
                     <h3 className="head-text">Let's Talk</h3>
                     <p className="text-lg text-white-600 mt-3">
-                        Feel free to write that resonates with you.
+                        Feel free to reach out by submitting this form.
                     </p>
 
-                    <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+                    <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-5">
                         <label className="space-y-3">
                             <span className="field-label">Full Name</span>
                             <input

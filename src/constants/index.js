@@ -26,7 +26,7 @@ export const myProjects = [
         title: 'DeepL - Deep Learning Framework',
         desc: 'A custom deep learning framework designed for efficient graph optimization and reverse-mode auto-differentiation. The framework provides foundational tools for building and training neural networks with both Python and C++ bindings, enabling flexibility and performance for machine learning tasks.',
         link: 'https://github.com/ashwin1596/deepL',
-        image: '/assets/grid1.png',
+        image: '/myassets/deepL_image.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
