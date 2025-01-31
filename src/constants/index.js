@@ -87,7 +87,7 @@ export const myProjects = [
                 id: 5,
                 name: 'Docker',
                 path: '/myassets/docker_logo.svg',
-            },
+            }
         ],
     },
     {
@@ -114,7 +114,41 @@ export const myProjects = [
                 id: 2,
                 name: 'Python',
                 path: '/myassets/python_logo.svg',
+            }
+        ],
+    },
+    {
+        title: 'Portfolio Website',
+        desc: 'A modern, interactive portfolio website built with React, Three.js, Tailwind CSS, and Vite.',
+        link: 'https://github.com/ashwin1596/portfolio-website',
+        image: '/myassets/portfolio_image.png',
+        logoStyle: {
+            backgroundColor: '#13202F',
+            border: '0.2px solid #17293E',
+            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/myassets/react_logo.svg',
             },
+            {
+                id: 2,
+                name: 'Three.js',
+                path: '/myassets/threejs_logo.png',
+            },
+            {
+                id: 3,
+                name: 'Tailwind CSS',
+                path: '/myassets/tailwindcss_logo.png',
+            },
+            {
+                id: 4,
+                name: 'Vite',
+                path: '/myassets/vite_logo.svg',
+            }
         ],
     },
     {
