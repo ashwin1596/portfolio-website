@@ -93,9 +93,9 @@ export const myProjects = [
     {
         title: 'P2P Storage: Decentralized Data Management',
         desc: 'A distributed storage platform that revolutionizes data accessibility and sharing through intelligent peer-to-peer networking.',
-        link: '',
+        link: 'https://github.com/ashwin1596/p2p',
         texture: '/textures/project/project3.mp4',
-        image: '/assets/grid1.png',
+        image: '/myassets/p2p_image.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
             background:
