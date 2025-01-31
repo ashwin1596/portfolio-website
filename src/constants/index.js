@@ -23,8 +23,8 @@ export const navLinks = [
 
 export const myProjects = [
     {
-        title: 'DeepL - Deep Learning Framework',
-        desc: 'A custom deep learning framework designed for efficient graph optimization and reverse-mode auto-differentiation. The framework provides foundational tools for building and training neural networks with both Python and C++ bindings, enabling flexibility and performance for machine learning tasks.',
+        title: 'DeepL - Efficient Deep Learning Framework',
+        desc: 'A high-performance deep learning framework specifically designed to solve complex graph optimization challenges in machine learning, enabling researchers and developers to build more efficient and precise neural network models.',
         link: 'https://github.com/ashwin1596/deepL',
         image: '/myassets/deepL_image.png',
         logoStyle: {
@@ -52,7 +52,7 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Purchase Planner',
+        title: 'Purchase Planner: Collaborative Shopping Intelligence',
         desc: 'Purchase Planner is a full-stack web application designed to help users manage and organize their purchases effectively. The application provides an intuitive interface for creating, maintaining, and prioritizing a personal purchase list.',
         link: 'https://github.com/ashwin1596/purchase_planner',
         image: '/myassets/pplanner_image.png',
@@ -91,8 +91,8 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Peer to Peer Storage',
-        desc: 'Developed a Python-based peer-to-peer storage system using gRPC, enabling efficient distributed file storage and retrieval. Designed a scalable resource allocation mechanism that improved data accessibility by 40% and implemented fault-tolerant communication protocols to ensure seamless data synchronization across peers.',
+        title: 'P2P Storage: Decentralized Data Management',
+        desc: 'A distributed storage platform that revolutionizes data accessibility and sharing through intelligent peer-to-peer networking.',
         link: '',
         texture: '/textures/project/project3.mp4',
         image: '/assets/grid1.png',
@@ -118,8 +118,8 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Portfolio Website',
-        desc: 'A modern, interactive portfolio website built with React, Three.js, Tailwind CSS, and Vite.',
+        title: 'Interactive Portfolio: Professional Digital Storytelling',
+        desc: 'A cutting-edge digital portfolio showcasing professional skills through immersive web technologies, built with React, Three.js, Tailwind CSS, and Vite.',
         link: 'https://github.com/ashwin1596/portfolio-website',
         image: '/myassets/portfolio_image.png',
         logoStyle: {
@@ -152,8 +152,8 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Load balancer',
-        desc: 'Developed a scalable load balancer using the Shortest Queue Strategy to efficiently distribute traffic across multiple servers. Implemented a concurrent client-server architecture with Python\'s socket library and UDP protocol, handling high-volume requests. Utilized multithreading and OOP principles to simulate and manage multiple simultaneous client connections and server responses.',
+        title: 'LoadBalancer: Smart Traffic Optimization',
+        desc: 'A high-performance network traffic management system that optimizes server resource utilization and request processing.',
         link: 'https://github.com/ashwin1596/load_balancer_project',
         image: '/myassets/loadbalancer_image.png',
         logoStyle: {
@@ -171,8 +171,8 @@ export const myProjects = [
         ],
     },
     {
-        title: 'TCP (Transmission Control Protocol – Tahoe version)',
-        desc: 'Implemented the TCP Tahoe protocol with Slow Start and Congestion Avoidance phases using a sliding window mechanism for efficient data transmission. Engineered fast retransmission and timeout handling to ensure reliability, utilizing Python and socket programming. Developed an object-oriented concurrent system for packet transmission and network communication using UDP.',
+        title: 'TCP Tahoe: Advanced Network Communication',
+        desc: 'A robust network communication protocol implementation that enhances data transmission reliability and network efficiency.',
         link: 'https://github.com/ashwin1596/tcp_project',
         image: '/myassets/tcp_image.png',
         logoStyle: {
@@ -190,8 +190,8 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Vector Routing Protocol',
-        desc: 'Implemented the RIP distance-vector routing protocol to enable dynamic routing and shortest path calculation using Python and UDP. Developed periodic route updates, CIDR support, and dynamic routing table adjustments for optimized network performance. Applied \'split-horizon\' with poisoned reverse to prevent routing loops and address the count-to-infinity problem.',
+        title: 'RIP Routing: Intelligent Network Pathfinding',
+        desc: 'A dynamic network routing protocol that optimizes path selection and prevents routing inefficiencies in complex network environments.',
         link: 'https://github.com/ashwin1596/routing_protocol',
         image: '/myassets/rip_image.png',
         logoStyle: {
