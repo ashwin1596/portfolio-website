@@ -1,6 +1,6 @@
 const ProjectCard = ({title, desc, image, link, tags, spotlight}) => {
     return (
-        <div className="grid-container p-5 bg-gray-800 rounded-lg shadow-lg">
+        <div className="grid-container p-5 bg-gray-800 rounded-lg shadow-lg flex flex-col justify-between h-full">
             <img src={image} alt={title} className="w-full h-48 object-cover items-center rounded-lg"/>
             <h3 className="text-xl font-semibold text-white mt-3">{title}</h3>
             <p className="text-gray-400 text-sm mt-2 text-justify">{desc}</p>
