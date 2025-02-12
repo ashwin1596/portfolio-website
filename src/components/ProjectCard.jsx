@@ -13,11 +13,13 @@ const ProjectCard = ({title, desc, image, link, tags, spotlight}) => {
                 ))}
             </div>
 
-            <a href={link} target="_blank" rel="noopener noreferrer"
-               className="flex flex-row items-center mt-3 inline-block text-blue-400 hover:text-blue-300">
-                <img src="/myassets/github_logo.svg" className="tech-logo"/>
-                {"View Code"}
-            </a>
+            {link && (
+                <a href={link} target="_blank" rel="noopener noreferrer"
+                   className="flex flex-row items-center mt-3 inline-block text-blue-400 hover:text-blue-300">
+                    <img src="/myassets/github_logo.svg" className="tech-logo"/>
+                    {"View Code"}
+                </a>
+            )}
         </div>
     )
 }
