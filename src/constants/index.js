@@ -52,7 +52,7 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Purchase Planner: Collaborative Shopping Intelligence',
+        title: 'Purchase Planner: Personalized Shopping Intelligence',
         desc: 'Purchase Planner is a full-stack web application designed to help users manage and organize their purchases effectively. The application provides an intuitive interface for creating, maintaining, and prioritizing a personal purchase list.',
         link: 'https://github.com/ashwin1596/purchase_planner',
         image: '/myassets/pplanner_image.png',
