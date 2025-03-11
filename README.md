@@ -6,6 +6,13 @@ A cutting-edge digital portfolio showcasing professional skills through immersiv
 
 Traditional static portfolios fail to capture a designer/developer's dynamic capabilities and creative potential.
 
+## Implementation Highlights
+
+- Developed an interactive and visually engaging portfolio using React, Three.js, and Tailwind CSS, overcoming the limitations of static resumes by showcasing skills dynamically.
+- Integrated advanced 3D graphics and animations with Three.js, creating an immersive user experience that enhances professional storytelling.
+- Optimized application performance and responsiveness using Vite, implementing lazy loading, asset bundling, and code splitting for faster load times and smooth interactivity.
+- Engineered reusable UI components and a scalable architecture, enabling easy maintainability and future feature expansions.
+
 ## 🛠️ Technologies Used
 
 - **React** – Frontend library for building UI
