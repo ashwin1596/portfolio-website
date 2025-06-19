@@ -18,7 +18,8 @@ const Hero = () => {
     return (
         <section className="min-h-screen w-full flex flex-col relative" id="home">
             <div className="w-full sm:w-1/2 flex flex-row items-start gap-3">
-                <div className="flex flex-col justify-center items-start sm:mt-32 mt-20 ml-[100px]">
+                console.log(isSmall);
+                <div className={`flex flex-col justify-center items-start sm:mt-32 mt-20 ${isSmall ? 'ml-[10px]' : 'ml-[100px]'} md:ml-[10px]`}>
                     <div className="w-1 sm:h-80 h-40 red-gradient ml-2"/>
                 </div>
 
@@ -30,26 +31,30 @@ const Hero = () => {
                         Transforming complex ideas into powerful software solutions at the intersection of cloud and AI — but that's just the beginning. I'm a computer scientist who thrives on pushing technical boundaries and exploring new frontiers in technology.
                     </p>
                 </div>
+
+                <div>
+                    <img src="/myassets/me.JPG"/>
+                </div>
             </div>
 
-            <div className="w-full h-full absolute inset-0">
-                <Canvas className="w-full h-full">
-                    <Suspense fallback={<CanvasLoader/>}>
+            {/*<div className="w-full h-full absolute inset-0">*/}
+            {/*    <Canvas className="w-full h-full">*/}
+            {/*        <Suspense fallback={<CanvasLoader/>}>*/}
 
-                        <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
-                        {!isMobile && (
-                            <HackerRoom
-                                position={sizes.deskPosition}
-                                rotation={[0, Math.PI, 0]}
-                                scale={sizes.deskScale}
-                            />
-                        )}
-                        <ambientLight intensity={1}/>
-                        <directionalLight position={[10, 10, 10]} intensity={0.5}/>
+            {/*            <PerspectiveCamera makeDefault position={[0, 0, 20]}/>*/}
+            {/*            {!isMobile && (*/}
+            {/*                <HackerRoom*/}
+            {/*                    position={sizes.deskPosition}*/}
+            {/*                    rotation={[0, Math.PI, 0]}*/}
+            {/*                    scale={sizes.deskScale}*/}
+            {/*                />*/}
+            {/*            )}*/}
+            {/*            <ambientLight intensity={1}/>*/}
+            {/*            <directionalLight position={[10, 10, 10]} intensity={0.5}/>*/}
 
-                    </Suspense>
-                </Canvas>
-            </div>
+            {/*        </Suspense>*/}
+            {/*    </Canvas>*/}
+            {/*</div>*/}
 
             <div className="w-10 h-10 absolute mx-auto bottom-10 left-0 right-0 flex flex-col items-center">
                 <a href="#experience" className={"w-fit mx-auto"}>
