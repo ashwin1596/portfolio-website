@@ -6,6 +6,9 @@ A cutting-edge digital portfolio showcasing professional skills through immersiv
 
 Traditional static portfolios fail to capture a designer/developer's dynamic capabilities and creative potential.
 
+## Preview
+![Preview](https://github.com/ashwin1596/portfolio-website/blob/master/LandingPage.png)
+
 ## Implementation Highlights
 
 - Developed an interactive and visually engaging portfolio using React, Three.js, and Tailwind CSS, overcoming the limitations of static resumes by showcasing skills dynamically.
