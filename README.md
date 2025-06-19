@@ -1,4 +1,4 @@
-# 🚀 Interactive Portfolio: Professional Digital Storytelling (https://portfolio-website-orpin-one.vercel.app/)
+# Interactive Portfolio: Professional Digital Storytelling (https://portfolio-website-orpin-one.vercel.app/)
 
 A cutting-edge digital portfolio showcasing professional skills through immersive web technologies.
 
